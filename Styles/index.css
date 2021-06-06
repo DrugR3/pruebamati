@@ -1,0 +1,88 @@
+
+
+/* HEADER */
+.Seccion-header {
+  display: flex; /*Convierte el contenedor en flexible que permite agrupar los elementos en una linea*/
+  list-style: none; /*Saca el estilo a las listas*/
+  justify-content:space-between; /*Centra el contenido*/
+  background-color: #5808b375;
+  grid-template-columns: max-content;
+}
+.Seccion-header li {
+  padding: 18px 10px;
+  font-size: 23px;
+  font-family: fantasy;
+}
+.Seccion-header li a {
+  text-decoration: goldenrod;
+  color: black;
+  transition: all 0.3s ease-out; /*Sirve para la transicion y el tiempo de un estado a otro*/
+}
+.Seccion-header li a:hover {
+  color: yellow;
+  font-size: 29px;
+  color: text-rendering;
+}
+/* HEADER */
+
+/* BODY */
+.Cuerpo {
+    font-size: 19px;
+    color: black;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: rgba(190, 81, 172, 0.767);
+    background-repeat: repeat;
+    grid-column: auto;
+  }
+.tabla1 {
+  border-collapse: separate;
+  border: 3px solid black;
+}
+.Banner-home img {
+    width: 100%
+}
+/* BODY */
+
+/* MENU DROPDOWN */
+.Seccion-header li .menuDownButton {
+  color: rgb(218, 218, 240);
+  padding: 16px;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.menuDown {
+  position: relative;
+  display: inline-block;
+  width: 177px;
+  height: 35px;
+  text-align: center;
+}
+.DropdownMenu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.DropdownMenu a {
+  color: rgb(245, 230, 230);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.DropdownMenu a:hover {
+  background-color: #111001;
+}
+.menuDown:hover .DropdownMenu {
+  display: block;
+}
+/* MENU DROPDOWN */
+.Entrada {
+  width: 100%;
+  display:contents;
+
+}

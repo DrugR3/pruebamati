@@ -1,0 +1,106 @@
+/* HEADER */
+/* HEADER */
+/* BODY */
+/* BODY */
+/* MENU DROPDOWN */
+/* MENU DROPDOWN */
+.Seccion-header {
+  display: -ms-grid;
+  display: grid;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #5808b375;
+  -ms-grid-columns: max-content;
+      grid-template-columns: -webkit-max-content;
+      grid-template-columns: max-content;
+}
+
+.Seccion-header li {
+  padding: 18px 10px;
+  font-size: 23px;
+  font-family: fantasy;
+}
+
+.Seccion-header li a {
+  -webkit-text-decoration: goldenrod;
+          text-decoration: goldenrod;
+  color: black;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.Seccion-header li a:hover {
+  color: yellow;
+  font-size: 29px;
+  color: text-rendering;
+}
+
+.Seccion-header li .menuDownButton {
+  color: #dadaf0;
+  padding: 16px;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Cuerpo {
+  font-size: 19px;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgba(190, 81, 172, 0.767);
+  background-repeat: repeat;
+  grid-column: auto;
+}
+
+.tabla1 {
+  border-collapse: separate;
+  border: 3px solid black;
+}
+
+.Banner-home img {
+  width: 100%;
+}
+
+.menuDown {
+  position: relative;
+  display: inline-block;
+  width: 177px;
+  height: 35px;
+  text-align: center;
+}
+
+.menuDown:hover .DropdownMenu {
+  display: block;
+}
+
+.DropdownMenu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.DropdownMenu a {
+  color: #f5e6e6;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.DropdownMenu a:hover {
+  background-color: #111001;
+}
+
+.Entrada {
+  width: 100%;
+  display: contents;
+}
+/*# sourceMappingURL=estilos.css.map */
