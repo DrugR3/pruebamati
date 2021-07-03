@@ -1,88 +1,138 @@
-
-
 /* HEADER */
+/* HEADER */
+/* BODY */
+/* BODY */
+/* MENU DROPDOWN */
+/* MENU DROPDOWN */
 .Seccion-header {
-  display: flex; /*Convierte el contenedor en flexible que permite agrupar los elementos en una linea*/
-  list-style: none; /*Saca el estilo a las listas*/
-  justify-content:space-between; /*Centra el contenido*/
-  background-color: #5808b375;
-  grid-template-columns: max-content;
+  list-style: none;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 0;
 }
 .Seccion-header li {
-  padding: 18px 10px;
-  font-size: 23px;
+  padding: 0px;
+  font-size: 15px;
+  letter-spacing: 0.5;
   font-family: fantasy;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .Seccion-header li a {
-  text-decoration: goldenrod;
-  color: black;
-  transition: all 0.3s ease-out; /*Sirve para la transicion y el tiempo de un estado a otro*/
+  text-decoration: #c28f2c;
+  color: white;
+  transition: all 0.3s ease-out;
 }
 .Seccion-header li a:hover {
-  color: yellow;
-  font-size: 29px;
+  color: #c28f2c;
+  font-size: 24.5px;
   color: text-rendering;
 }
-/* HEADER */
+.Seccion-header li .menuDownButton {
+  color: #dadaf0;
+  padding: 0px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  justify-content: space-between;
+  letter-spacing: 0.5px;
+}
 
-/* BODY */
 .Cuerpo {
-    font-size: 19px;
-    color: black;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    background-color: rgba(190, 81, 172, 0.767);
-    background-repeat: repeat;
-    grid-column: auto;
-  }
+  font-size: 19px;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: linear-gradient(360deg, #061c25 0%, #111111 100%);
+  background-repeat: repeat;
+  grid-column: auto;
+}
+.Cuerpo .Banner-home img {
+  width: 100%;
+}
+.Cuerpo .top-header {
+  display: flex;
+  height: 75px;
+  padding: 15px 40px;
+  border-bottom: 2px solid #333333;
+}
+.Cuerpo .top-header .cont-img {
+  display: flex;
+  max-width: 60px;
+}
+.Cuerpo .body-content {
+  display: flex;
+  padding-top: 20px;
+}
+.Cuerpo .body-content .videos-home {
+  display: flex;
+  flex-direction: column;
+}
+.Cuerpo .body-content .videos-home .videos-title {
+  color: #dadaf0;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #333333;
+}
+.Cuerpo .body-content .videos-home iframe {
+  width: auto;
+  height: auto;
+  padding: 5px 20px;
+  padding-left: 0px;
+}
+.Cuerpo .body-content .body-info {
+  display: flex;
+  flex-direction: column;
+  color: #dadaf0;
+}
+
 .tabla1 {
   border-collapse: separate;
   border: 3px solid black;
 }
-.Banner-home img {
-    width: 100%
-}
-/* BODY */
 
-/* MENU DROPDOWN */
-.Seccion-header li .menuDownButton {
-  color: rgb(218, 218, 240);
-  padding: 16px;
-  font-size: 19px;
-  border: none;
-  cursor: pointer;
-  justify-content: space-between;
-}
 .menuDown {
   position: relative;
   display: inline-block;
-  width: 177px;
+  width: 155px;
   height: 35px;
   text-align: center;
 }
+.menuDown:hover .DropdownMenu {
+  display: block;
+}
+
 .DropdownMenu {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #111111;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  top: 30px;
+  box-shadow: -1px 20px 20px 3px rgba(0, 0, 0, 0.52);
 }
 .DropdownMenu a {
-  color: rgb(245, 230, 230);
+  color: #f5e6e6;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 .DropdownMenu a:hover {
-  background-color: #111001;
+  background-color: #111111;
 }
-.menuDown:hover .DropdownMenu {
-  display: block;
-}
-/* MENU DROPDOWN */
+
 .Entrada {
   width: 100%;
-  display:contents;
+  display: contents;
 
 }
+.text2{
+  color: #dadaf0;
+
+}
+.Tops{
+  justify-content: space-between;
+}
+/*# sourceMappingURL=index.css.map */

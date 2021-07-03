@@ -1,0 +1,29 @@
+
+    .boton-personalizado1 {
+        text-decoration:revert;
+        font-weight:500px;
+        font-size:20px;
+        color:#ffffff;
+        padding-top:15px;
+        padding-bottom:15px;
+        padding-left:150px;
+        padding-right:150px;
+        background-color:#442940;
+        margin: 150px;
+}
+    .boton-personalizado {
+        text-decoration:none;
+        font-weight:600;
+        font-size:20px;
+        color:#ffffff;
+        padding-top:15px;
+        padding-bottom:15px;
+        padding-left:150px;
+        padding-right:150px;
+        background-color:#fadf67;
+        margin: 150px;
+}
+.contacto {
+    background: linear-gradient(360deg, rgba(6,28,37,1) 0%, rgba(17,17,17,1) 100%);
+    color: #dadaf0;
+    

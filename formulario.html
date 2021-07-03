@@ -1,48 +1,37 @@
-<html>
-  <h2>FORMULARIO</h2>
-  <form>
-    <label for="fname">Nombre:</label><br />
-    <input type="text" id="fname" name="fname" /><br />
-    <label for="lname">Apellido:</label><br />
-    <input type="text" id="lname" name="lname" />
-  </form>
-  <br />
+<link href="Styles/formulario.css" rel='stylesheet' type='text/css'>
+<link href="Styles/formulario.css" rel="stylesheet">
 
-  <form class="form-inline" role="form">
-    <div class="form-group">
-      <label for="email">Email:</label>
+<div class="foto">
+  <title>Redireccion index</title>
+  <a class="boton-personalizado1" href="C:/Users/Matias/Desktop/mati/Index.html">Regresar a la pagina principal</a>
+</div>
+<div class="testbox">
+  
+  <h1>Registrarse Tolol+</h1>
 
-      <input type="email" class="form-control" id="email" />
-    </div>
-    <div class="form-group">
-      <label for="pwd">Contraseña:</label>
-      <input type="password" class="form-control" id="pwd" />
-    </div>
-    <div class="checkbox">
-      <label><input type="checkbox" /> Recordame</label>
-    </div>
-    <button type="submit" class="btn btn-default">Enviar</button>
-    <button type="reset" class="btn btn-default">Limpiar formulario</button>
-  </form>
+  <form action="/">
+      <hr>
 
-  <br />
-  <form>
-    <h5>Sexo</h5>
-    <input type="radio" id="male" name="gender" value="male" />
-    <label for="male">Masculino</label><br />
-    <input type="radio" id="female" name="gender" value="female" />
-    <label for="female">Femenino</label><br />
-    <input type="radio" id="other" name="gender" value="other" />
-    <label for="other">Otro</label>
+  <hr>
+  <label id="icon" for="name"><i class="icon-envelope "></i></label>
+  <input type="text" name="name" id="name" placeholder="Nombre" required/>
+  <label id="icon" for="name"><i class="icon-user"></i></label>
+  <input type="text" name="name" id="name" placeholder="Email" required/>
+  <label id="icon" for="name"><i class="icon-shield"></i></label>
+  <input type="password" name="name" id="name" placeholder="Password" required/>
+  <div class="gender">
+    <input type="radio" value="None" id="Masculino" name="gender" checked/>
+    <label for="Masculino" class="radio" chec>Masculino</label>
+    <input type="radio" value="None" id="Femenino" name="gender" />
+    <label for="Femenino" class="radio">Femenino</label>
+   </div> 
+   <img src="./images/bordenaranja1.png" alt="">
+   <p>Haciendo click aqui será redireccionado<a href="#">Pagina principal</a>.</p>
+   <a href="#" class="button">Registrar</a>
+
   </form>
-  <form>
-    <br />
-    <h5><p>Interes de entrar a la pagina</p></h5>
-    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-    <label for="vehicle1">Ocio</label><br />
-    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
-    <label for="vehicle2">Crecimiento profesional</label><br />
-    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
-    <label for="vehicle3">Otros</label>
-  </form>
-</html>
+  
+ 
+</div>
+  
+</div>
